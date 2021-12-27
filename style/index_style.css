@@ -1,0 +1,38 @@
+.inner {
+    /* height: 30em; */
+    height: 100vh;
+}
+
+.inner h1 {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-top: 200px;
+    font-size: 3em;
+}
+
+.inner h1 em {
+    animation: fade 3s infinite;
+}
+
+/* .inner h1 em:hover {
+    text-shadow: 2px 2px 0 orange, -2px -2px 0 tomato;
+    transition: all 0.5s;
+} */
+
+@keyframes fade {
+    0% {
+        text-shadow: none;
+    }
+    50% {
+        text-shadow: 2px 2px 0 orange, -2px -2px 0 tomato;
+    }
+    100% {
+        text-shadow: none;
+    }
+}
+
+a.active {
+    pointer-events: none;
+    cursor: default;
+}

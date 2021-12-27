@@ -1,0 +1,131 @@
+/* .inner {
+    min-width: 310px;
+    font: 16px Helvetica, Avernir, sans-serif;
+    line-height: 24px;
+    color: #000;
+    max-width: 800px;
+    margin: auto;
+} */
+
+section img {
+    float: right;
+    position: relative;
+    z-index: -1;
+    /* right: 0; */
+    padding: 10px;
+    background: #fff;
+    margin: 20px 30px;
+    transform: rotate(-5deg);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    width: 220px;
+}
+
+.inner i {
+    padding-right: 15px;
+}
+
+.inner h1 {
+    margin: 0 0 16px 0;
+    padding: 100px 0 16px 0;
+    /* font-size: 42px; */
+    /* font-weight: bold; */
+    letter-spacing: -2px;
+    border-bottom: 1px solid #999;
+    line-height: 50px;
+    position: relative;
+    z-index: -2;
+}
+
+.inner p {
+    margin: 16px 0 16px 16px;
+}
+
+.inner p a {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+
+.inner p a:hover {
+    border-bottom-style: solid;
+    color: #000;
+}
+
+.inner a {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.inner a:hover {
+    color: #000;
+}
+
+.inner p.objective {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #666;
+    text-align: justify;
+    padding-top: 20px;
+    margin: 0 0 3em 0;
+}
+
+.inner dl {
+    display: table-row;
+}
+
+.inner dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 36px 0 0;
+    width: 100px;
+    border-right: 1px solid #999;
+}
+
+.inner dl dt,
+.inner dl dd {
+    display: table-cell;
+    padding-bottom: 20px;
+}
+
+.inner dl dd {
+    /* width: 500px; */
+    padding: 0 40px 0 26px;
+}
+
+.inner li {
+    text-align: justify;
+}
+
+.inner h2 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.inner span {
+    font-style: italic;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+
+a.active {
+    pointer-events: none;
+    cursor: default;
+}
+
+@media (max-width: 785px) {
+    .inner img {
+        float: none;
+        transform: rotate(0);
+        width: 250px;
+        margin: auto;
+    }
+    .img {
+        text-align: center;
+    }
+    .inner dt {
+        display: none;
+    }
+}

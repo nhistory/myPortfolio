@@ -1,0 +1,23 @@
+.project {
+    box-sizing: border-box;
+    padding: 0 70px;
+}
+
+.project > img {
+    display: block;
+    width: 400px;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 50px auto;
+    padding: 10px;
+    background: #fff;
+}
+
+.project div {
+    /* display: flex; */
+    padding: 20px;
+}
+
+a.active {
+    pointer-events: none;
+    cursor: default;
+}

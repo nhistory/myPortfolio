@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LEE SE-HWAN</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <script
+            src="https://kit.fontawesome.com/6ec5126004.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="stylesheet" href="style/contact_style.css" />
+    </head>
+    <body>
+        <header class="left">
+            <div class="name-text">
+                <img
+                    src="./Image/My_profile.jpg"
+                    alt="my profile..."
+                    class="me-img"
+                />
+
+                <h1>Sehwan <em>Lee</em></h1>
+                <p>LowerSackville, NS</p>
+                <p>sehwan.lee.dev@gmail.com</p>
+                <p>(902) 123-4567</p>
+                <div class="icons">
+                    <a
+                        href="https://www.linkedin.com/in/sehwann/"
+                        target="_blank"
+                    >
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/nhistory" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                        href="https://nhistory.github.io/DevBlog/"
+                        target="_blank"
+                    >
+                        <i class="fab fa-blogger-b"></i>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="right">
+            <header>
+                <nav class="sidebar">
+                    <a href="index.html">Home</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="project.html">Project</a>
+                    <a href="experience.html">Experience</a>
+                    <a href="resume.html">Resume</a>
+                    <a class="active" href="contact.html">Contact</a>
+                </nav>
+            </header>
+            <div class="inner">
+                <form
+                    id="contact"
+                    action="https://formsubmit.co/sehwan.lee.dev@gmail.com"
+                    method="post"
+                >
+                    <h3>Quick Contact</h3>
+                    <h4>Contact me today, and get reply with in 24 hours!</h4>
+                    <fieldset>
+                        <input
+                            placeholder="Fisrt name"
+                            type="text"
+                            name="firstname"
+                            tabindex="1"
+                            required
+                            autofocus
+                        />
+                    </fieldset>
+                    <fieldset>
+                        <input
+                            placeholder="Last name"
+                            type="text"
+                            name="lastname"
+                            tabindex="2"
+                            required
+                            autofocus
+                        />
+                    </fieldset>
+                    <fieldset>
+                        <input
+                            placeholder="Company"
+                            type="text"
+                            name="company"
+                            tabindex="3"
+                            required
+                            autofocus
+                        />
+                    </fieldset>
+                    <fieldset>
+                        <input
+                            placeholder="Contact Phone Number"
+                            type="tel"
+                            name="tel"
+                            tabindex="4"
+                            required
+                        />
+                    </fieldset>
+                    <fieldset>
+                        <input
+                            placeholder="Your Email Address"
+                            type="email"
+                            name="email"
+                            tabindex="5"
+                            required
+                        />
+                    </fieldset>
+                    <fieldset>
+                        <button
+                            name="submit"
+                            type="submit"
+                            id="contact-submit"
+                            tabindex="6"
+                        >
+                            Submit
+                        </button>
+                        <button name="reset" type="reset" id="contact-reset">
+                            Reset
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
