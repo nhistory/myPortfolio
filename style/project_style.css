@@ -3,7 +3,7 @@
     padding: 0 70px;
 }
 
-.project > img {
+.project > a > img {
     display: block;
     width: 400px;
     box-shadow: 5px 10px 8px #888888;
